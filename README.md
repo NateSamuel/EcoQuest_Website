@@ -8,7 +8,7 @@ The feedback mechanism educates users on the impact of their choices, promoting 
 https://www.youtube.com/watch?v=5lP4xQfWTaQ
 
 # Design
-Below are screenshots of our final app implementations and a feature breakdown, labelled by the iteration in which each feature was developed (MVP-1, MVP-2, MVP-3). For design reasoning, please see the prototypes and iteration section above, for detailed MVP implementation [8]
+Below are screenshots of our final app implementations and a feature breakdown, labelled by the iteration in which each feature was developed (MVP-1, MVP-2, MVP-3).
 
 ## Breakdown of Screens
 
