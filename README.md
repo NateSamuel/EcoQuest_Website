@@ -10,9 +10,9 @@ https://www.youtube.com/watch?v=5lP4xQfWTaQ
 # Design
 Below are screenshots of our final app implementations and a feature breakdown, labelled by the iteration in which each feature was developed (MVP-1, MVP-2, MVP-3). For design reasoning, please see the prototypes and iteration section above, for detailed MVP implementation [8]
 
-Breakdown of Screens
+## Breakdown of Screens
 
-##Welcome
+**Welcome**
 
 ![Screenshot](./Images/ReadMeScreenShots/Entry.jpg)
 
@@ -22,7 +22,7 @@ Offers game start (MVP-2)
 Stack: 
 Front-end - title.module.css, react.js for styling, buttons and layout
 
-##Character Selection Page
+**Character Selection Page**
 
 ![Screenshot](./Images/ReadMeScreenShots/CharacterSelection.jpg)
 
@@ -33,7 +33,7 @@ Activist (MVP-2)
 Stack: 
 Front-end - character.module.css for styling and layout, react.js component for handling user interactions and state, and passes the character selection to other components.
 
-##Topic/Zone Selection Map Component
+**Topic/Zone Selection Map Component**
 
 ![Screenshot](./Images/ReadMeScreenShots/Map.jpg)
 
@@ -43,7 +43,7 @@ Completed topics display a tick icon to indicate progress. (MVP-3)
 
 
 
-##On Topic Completion
+**On Topic Completion**
 
 ![Screenshot](./Images/ReadMeScreenShots/MapComplete.jpg)
 
@@ -58,7 +58,7 @@ React.js: Sends requests to retrieve topic data.
 Express.js/Node.js: Processes requests and interacts with the database.
 MySQL: Stores and provides topic names and related information.
 
-##Topic/Zone Info Card
+**Topic/Zone Info Card**
 
 ![Screenshot](./Images/ReadMeScreenShots/ZoneEntry.jpg)
 
@@ -77,7 +77,7 @@ Express.js/Node.js: Manages requests between the front end and the database.
 MySQL: Stores and retrieves topic descriptions and completion status.
 When "Enter" is clicked, it passes topic and character data to the Quiz component.
 
-##Topic Quiz Component
+**Topic Quiz Component**
 
 ![Screenshot](./Images/ReadMeScreenShots/Quiz.jpg)
 
@@ -109,7 +109,7 @@ Back-end:
 Express.js/Node.js: Handles API requests to retrieve quiz data (questions, answers, hints).
 MySQL: Stores and provides quiz data, including questions, answers, and hints.
 
-##Result Component
+**Result Component**
 
 ![Screenshot](./Images/ReadMeScreenShots/Results.jpg)
 
@@ -130,7 +130,7 @@ Front-end: React.js for rendering the component, managing state, and displaying 
 
 
 
-##Info Card about Final Challenge
+**Info Card about Final Challenge**
 
 ![Screenshot](./Images/ReadMeScreenShots/FinalChallengeEntry.jpg)
 
@@ -145,7 +145,7 @@ Component Tech Stack:
 Front-end: React.js for rendering the component, managing state, and dynamically displaying content based on whether the final challenge is locked or unlocked. CSS modules (finalEntrance.module.css) are used for styling. The text content of the card changes depending on the selected character.
 
 
-##Final Challenge Quiz Component:
+**Final Challenge Quiz Component**
 
 ![Screenshot](./Images/ReadMeScreenShots/FinalChallengeQuiz.jpg)
 
@@ -159,7 +159,7 @@ Component Tech Stack:
 Same stack as main topic quiz, with the addition of:
 Front-end - react.js logic for buying hints
 
-##Game result (win/lose)
+**Game result (win/lose)**
 
 ![Screenshot](./Images/ReadMeScreenShots/GameComplete.jpg)
 
