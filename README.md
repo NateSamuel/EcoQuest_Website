@@ -13,7 +13,7 @@ Below are screenshots of our final app implementations and a feature breakdown, 
 Breakdown of Screens
 
 Welcome
-![Screenshot](./Images/ReadMeScreenShots/Entry.jpeg)
+![Screenshot](./Images/ReadMeScreenShots/Entry.jpg)
 Figure 59. Welcome page MVP 3 
 Welcomes the player (MVP-2)
 Offers game start (MVP-2)
