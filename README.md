@@ -13,8 +13,9 @@ Below are screenshots of our final app implementations and a feature breakdown, 
 Breakdown of Screens
 
 Welcome
+
 ![Screenshot](./Images/ReadMeScreenShots/Entry.jpg)
-Figure 59. Welcome page MVP 3 
+
 Welcomes the player (MVP-2)
 Offers game start (MVP-2)
 
@@ -22,8 +23,8 @@ Stack:
 Front-end - title.module.css, react.js for styling, buttons and layout
 
 Character Selection Page
+![Screenshot](./Images/ReadMeScreenShots/CharacterSelection.jpg)
 
-Figure 60. MVP 3 Character Selection
 Player can choose from 2 paths: 
 Scientist (MVP-2)
 Activist (MVP-2)
@@ -33,7 +34,7 @@ Front-end - character.module.css for styling and layout, react.js component for 
 
 Topic/Zone Selection Map Component
 
-Figure 61. MVP 3 Map
+![Screenshot](./Images/ReadMeScreenShots/Map.jpg)
 
 Clicking a zone on the map opens the zone selection or final challenge cards (not directly the quiz). (MVP-3)
 The final challenge remains locked until all topics are completed.(MVP-2)
@@ -44,7 +45,7 @@ Completed topics display a tick icon to indicate progress. (MVP-3)
 On Topic Completion
 
 
-Figure 62. MVP 3 Topic Completion
+![Screenshot](./Images/ReadMeScreenShots/MapComplete.jpg)
 If the player makes a faultless topic quiz (at least once)(MVP-2)
 Players can replay all topics, earning points as usual. (MVP-2)
 
@@ -58,7 +59,7 @@ MySQL: Stores and provides topic names and related information.
 
 Topic/Zone Info Card
 
-Figure 63. MVP 3 Info card
+![Screenshot](./Images/ReadMeScreenShots/ZoneEntry.jpg)
 
 - Provides a brief description of the selected zone's problems with imageryy(MVP-3)
 - Offers two options: (MVP-3)
@@ -77,7 +78,7 @@ When "Enter" is clicked, it passes topic and character data to the Quiz componen
 
 Topic Quiz Component
 
-Figure 64. MVP 3 Quiz
+![Screenshot](./Images/ReadMeScreenShots/Quiz.jpg)
 
 Quiz length: 2 questions - generated uniquely(MVP-1)
 Each question has 1 correct answer; answer order is randomised. (MVP-1)
@@ -109,7 +110,7 @@ MySQL: Stores and provides quiz data, including questions, answers, and hints.
 
 Result Component
 
-Figure 65. MVP 3 Result
+![Screenshot](./Images/ReadMeScreenShots/Results.jpg)
 
 After reaching any outcomes, the game is replayable  (MVP-1)
 Correct/incorrect answers  (MVP-1)
@@ -130,7 +131,7 @@ Front-end: React.js for rendering the component, managing state, and displaying 
 
 Info Card about Final Challenge
 
-Figure 66. MVP 3 (Un)locked screen
+![Screenshot](./Images/ReadMeScreenShots/FinalChallengeEntry.jpg)
 
 Locked until all topics are completed (MVP-2)
 Unlocked once all topics are complete (MVP-2)
@@ -145,7 +146,7 @@ Front-end: React.js for rendering the component, managing state, and dynamically
 
 Final Challenge Quiz Component:
 
-Figure 67. MVP 3 Final Challenge 
+![Screenshot](./Images/ReadMeScreenShots/FinalChallengeQuiz.jpg)
 
 Final challenge can be played once (MVP-1)
 Contains only difficult (weight 3) questions (MVP-1)
@@ -159,7 +160,7 @@ Front-end - react.js logic for buying hints
 
 Game result (win/lose)
 
-Figure 68. MVP 3 Result
+![Screenshot](./Images/ReadMeScreenShots/GameComplete.jpg)
 
 Win (MVP-3)
 Reward: Winner’s badge and text
